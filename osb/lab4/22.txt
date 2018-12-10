@@ -1,0 +1,5 @@
+$ grep -c -E '\<[a-Z]{5}\>' city.txt > newfile.txt
+$ grep '6$' city.txt | sort -r >> newfile.txt
+$ cat newfile.txt
+$ sp >>result.txt 2>>result.txt
+$ ls $1 | xargs -I{} grep "/home$1/{}" /etc/passwd
