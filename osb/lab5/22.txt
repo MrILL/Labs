@@ -1,0 +1,3 @@
+$ cd ~
+$ find /etc -type d | xargs -I{} mkdir -p abc$1{}
+$ 
