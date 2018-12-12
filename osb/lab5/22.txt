@@ -1,4 +1,5 @@
 $ cd ~
 $ find /etc -type d | xargs -I{} mkdir -p abc$1{}
 $ find abc -type d | xargs -I{} sh -c "echo {} | sed s/[^/]//g | wc -m > {}/1.txt"
+$ find abc -mindepth 2 -maxdepth 2 -type f -printf '%f\n' -exec cat {} +
 $ 
