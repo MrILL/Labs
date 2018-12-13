@@ -1,0 +1,8 @@
+$ slepp 1000
+$ Ctrl+z
+$ bg
+$ ps | grep sleep
+$ pstree
+$ top -p [PID]
+$ kill [PID]
+$ ps -eo pid,user,cmd,stime
