@@ -7,4 +7,14 @@ $ login Sofia; login Giulia; login Aurora
 $ login Sofia
 
 $ sudo -s
-$ 1
+$ usermod -s /bin/sh Giulia
+$ group add Italy
+$ usermod -AG Italy Sofia; usermod -AG Italy Giulia; usermod -AG Italy Aurara
+$ mkdir /home/Italy
+$ chown Sofia /home/Italy
+$ chrpg Italy /home/Italy
+$ >test.txt
+$ chmod 700 text.txt
+
+$ chmode 702 text.txt
+$ usermod -g Italy Sofia; usermod -g Italy Giulia; usermod -g Italy Aurara
