@@ -1,5 +1,5 @@
 $ sudo -s
-$ useradd -b /home Sofia; useradd -b /home Giulia; useradd -b /home Aurora
+$ useradd Sofia; useradd Giulia; useradd /home Aurora
 $ passwd Sofia; passwd Giulia; passwd Aurora
 $ usermod -c Rossi Sofia; usermod -c Ricci Giulia; usermod -c Conti Aurora
 $ usermod -d /home/Conti Aurora
@@ -7,4 +7,4 @@ $ login Sofia; login Giulia; login Aurora
 $ login Sofia
 
 $ sudo -s
-$ 
+$ 1
